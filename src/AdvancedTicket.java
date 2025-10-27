@@ -19,7 +19,7 @@ public class AdvancedTicket extends Ticket {
     }
 
     public AdvancedTicket(int number, int numOfDaysPurchasedEarlier) {
-        this(number, numOfDaysPurchasedEarlier);
+        this(50, number, numOfDaysPurchasedEarlier);
     }
 
     @Override
