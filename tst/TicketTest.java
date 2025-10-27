@@ -17,5 +17,14 @@ public class TicketTest {
 
         Ticket ticket5 = new AdvancedTicket(4, 4);
         System.out.println(ticket5);
+
+        Ticket ticket6 = new StudentAdvanceTicket(60.5, 4, 7);
+        System.out.println(ticket6);
+
+        Ticket ticket7 = new StudentAdvanceTicket(24.5, 7);
+        System.out.println(ticket7);
+
+        Ticket ticket8 = new StudentAdvanceTicket( 7, 10);
+        System.out.println(ticket8);
     }
 }
