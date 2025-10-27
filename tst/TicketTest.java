@@ -4,10 +4,10 @@ public class TicketTest {
         System.out.println(ticket);
 
         Ticket ticket1 = new WalkupTicket(2.0);
-        System.out.println(ticket);
+        System.out.println(ticket1);
 
         Ticket ticket2 = new WalkupTicket(5);
-        System.out.println(ticket);
+        System.out.println(ticket2);
 
 
     }
